@@ -17,6 +17,35 @@
 
 ---
 
+## 🔀 듀얼 엔진 — 어느 쪽으로 갈 것인가
+
+이 레포는 **두 가지 이미지 생성 엔진**을 지원합니다. 사용자 요청 의도에 따라 자동 판단:
+
+| 엔진 | 트리거 키워드 | 스크립트 | 서브에이전트 |
+|:---|:---|:---|:---|
+| 🍌 **나노바나나** | "AI 이미지", "빠르게", "실험", "다양한 시안" | `nanobanana-gen.py` | `carousel-prompt-writer` (JSON) |
+| 🎨 **HTML/Puppeteer** | "정확하게", "광고", "법무", "한 글자 수정", "0원" | `html-carousel-gen.js` | `carousel-html-writer` (HTML) |
+
+**자동 판단 안 될 때 — CEO에게 1줄 질문**:
+> "🍌 나노바나나(Gemini, 빠른 실험) vs 🎨 HTML(정확/0원) 중 어느 엔진?"
+
+**CEO가 명시 안 하면 기본값**: HTML/Puppeteer (정확도 우선).
+
+### 엔진별 Phase 3 분기
+
+```
+Phase 3a (나노바나나):
+  python scripts/nanobanana-gen.py --topic <키워드> --slides templates/slides.<topic>.json
+
+Phase 3b (HTML):
+  # 1. carousel-html-writer 가 output/<topic>/slides/slide-01~09.html 작성
+  # 2. node scripts/html-carousel-gen.js --topic <keyword>
+```
+
+
+
+---
+
 ## 기본 산출물 — 9장 풀세트
 
 **모든 캐러셀 요청은 기본적으로 9장 세트를 생산합니다:**
@@ -105,12 +134,23 @@ output/{topic}/
 
 `.env` 파일 (git 추적 금지):
 ```
-GEMINI_API_KEY=AIza...         # https://aistudio.google.com/apikey
+GEMINI_API_KEY=AIza...         # 나노바나나 엔진 사용 시만 필수 (https://aistudio.google.com/apikey)
 ANTHROPIC_API_KEY=              # (옵션) reviewer 서브에이전트 API 호출용
 ```
 
-- Python ≥ 3.10 + `pip install python-dotenv google-genai`
-- Node.js ≥ 20 (품질 체크 훅용)
+### 의존성
+
+```bash
+# 나노바나나 엔진
+pip install python-dotenv google-genai
+
+# HTML/Puppeteer 엔진
+npm install   # puppeteer 자동 설치
+```
+
+- Python ≥ 3.10 (나노바나나)
+- Node.js ≥ 20 (HTML/Puppeteer + 품질 체크 훅)
+- (선택) Pretendard 폰트 시스템 설치 — HTML 트랙 한글 렌더링 품질 향상
 
 ---
 

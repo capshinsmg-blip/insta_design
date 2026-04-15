@@ -1,13 +1,26 @@
 # insta-carousel-builder
 
 > **Claude Code 하네스로 돌아가는 인스타 캐러셀 자동 제작 도구.**
-> 나노바나나 Pro(Gemini 3.0 Pro Image) 기반. **한글 88~98% 정확도 실증.**
+> **듀얼 엔진**: 나노바나나 Pro(Gemini 3.0 Pro Image) + HTML/CSS+Puppeteer.
 
-AI 이미지 도구로 인스타 캐러셀을 만들면 한글이 깨지고 AI 티가 나서 결국 수작업/외주로 돌아간다 — 는 통념을, Gemini 3.0 Pro Image 하나로 깨는 레포입니다.
+AI 이미지 도구로 인스타 캐러셀을 만들면 한글이 깨지고 AI 티가 나서 결국 수작업/외주로 돌아간다 — 는 통념을, **두 엔진 골라 쓰기**로 깨는 레포입니다.
 
-**9장 약 4분 30초, 약 500~1000원, 한글 88~98% 정확 (2회 실측)**.
+**👀 실제 결과물 → [`docs/sample-output/`](./docs/sample-output/) (나노바나나) / [`docs/sample-html/`](./docs/sample-html/) (HTML)**
 
-**👀 실제 결과물 보기 → [`docs/sample-output/`](./docs/sample-output/)**
+## 듀얼 엔진 비교
+
+| 비교 | 🍌 나노바나나 (Gemini API) | 🎨 HTML/Puppeteer |
+|:---|:---|:---|
+| **명령어** | `python scripts/nanobanana-gen.py` | `node scripts/html-carousel-gen.js` |
+| **한글 정확도** | 88~98% (비결정적) | **100% (결정적)** |
+| **비용** | ~500~1000원 / 9장 | **0원** |
+| **시간** | ~4분 30초 | ~30초 (캡처만) |
+| **디자인 자유도** | AI 해석 (가끔 워터마크) | **100% 통제** |
+| **수정 용이성** | 재생성 필요 | **한 글자도 즉시 Edit** |
+| **디자인 다양성** | 매번 다름 | 템플릿 한정 |
+| **Best for** | 빠른 실험 / A/B 시안 / 디자인 실험 | 광고 / 법무 / 브랜드 / 텍스트 정확성 |
+
+→ "**상황 따라 골라 쓴다**" 가 핵심.
 
 ---
 
