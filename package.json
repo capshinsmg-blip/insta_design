@@ -1,0 +1,23 @@
+{
+  "name": "insta-carousel-builder",
+  "version": "0.1.0",
+  "description": "Claude Code 하네스로 돌아가는 인스타 캐러셀 자동 제작 도구. 나노바나나 Pro(Gemini 3.0) 기반. 한글 97.8% 정확도 실증.",
+  "type": "module",
+  "scripts": {
+    "quality-check": "node scripts/quality-check.js",
+    "duplicate-check": "node scripts/duplicate-check.js",
+    "generate": "python scripts/nanobanana-gen.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "instagram",
+    "carousel",
+    "gemini",
+    "nano-banana",
+    "ainow"
+  ]
+}
