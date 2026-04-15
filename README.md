@@ -1,11 +1,13 @@
 # insta-carousel-builder
 
 > **Claude Code 하네스로 돌아가는 인스타 캐러셀 자동 제작 도구.**
-> 나노바나나 Pro(Gemini 3.0 Pro Image) 기반. **한글 97.8% 정확도 실증.**
+> 나노바나나 Pro(Gemini 3.0 Pro Image) 기반. **한글 88~98% 정확도 실증.**
 
 AI 이미지 도구로 인스타 캐러셀을 만들면 한글이 깨지고 AI 티가 나서 결국 수작업/외주로 돌아간다 — 는 통념을, Gemini 3.0 Pro Image 하나로 깨는 레포입니다.
 
-**9장 4분, 500원, 한글 97.8% (실측)**.
+**9장 약 4분 30초, 약 500~1000원, 한글 88~98% 정확 (2회 실측)**.
+
+**👀 실제 결과물 보기 → [`docs/sample-output/`](./docs/sample-output/)**
 
 ---
 
@@ -78,6 +80,38 @@ insta-carousel-builder/
 │   └── duplicate-check.js
 ├── output/                     # 생성 결과 (gitignored)
 └── docs/GETTING-STARTED.md
+```
+
+---
+
+---
+
+## 샘플 결과 (실측, 2026-04-15)
+
+`docs/sample-output/slide-01.png ~ slide-09.png` 가 실제 생성된 9장입니다.
+주제: **"Claude Code 7가지 꿀팁"** (`templates/slides.example.json` 그대로 실행).
+
+| 항목 | 결과 |
+|:---|:---|
+| 생성 성공률 | **9/9 (100%)** |
+| 총 소요 시간 | 4분 28초 (24~31초/장) |
+| 평균 파일 크기 | 487 KB |
+| 해상도 | 1080×1350 (4:5) |
+| 한글 정확도 (육안 표본) | 4장 중 3장 완벽, 1장 한글자 변형 (88%) |
+
+### 알려진 한계
+
+- **한글 정확도 비결정성**: 같은 프롬프트라도 세션마다 1~2글자 변형 가능 (`통` → `튱` 등). 100% 정확 보장 안 됨 → **생성 후 육안 검수 필수**
+- **가끔 가짜 인스타 핸들/워터마크 추가**: Gemini 가 학습 데이터 영향으로 본 적 없는 핸들(예: `@DevOpsPro`) 을 자체 추가하는 경우 있음 → 발견 시 해당 슬라이드만 재생성
+- **한글 오타 자동 감지 미구현**: 현재 OCR 기반 오타 감지 없음. `carousel-reviewer` 서브에이전트가 LLM 비전으로 점검
+
+### 재생성 팁
+
+오타 1~2장은 아래로 해당 슬라이드만 재생성 (현재는 전체 재실행, 다음 버전에서 `--only N` 추가 예정):
+
+```bash
+# 임시로 slides JSON 의 다른 슬라이드를 비워두고 실행
+python scripts/nanobanana-gen.py --topic claude-code-tips --slides templates/slides.partial.json
 ```
 
 ---
