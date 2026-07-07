@@ -22,9 +22,9 @@ tools: Read, Write, Grep
   *{margin:0;padding:0;box-sizing:border-box}
   body{
     width:1080px; height:1350px;
-    background:#131316; /* knowledge/brand-facts.md 디자인 DNA */
+    background:#F7F2EC; /* knowledge/brand-facts.md 디자인 DNA — 한지 화이트 */
     font-family:'Pretendard Variable',sans-serif;
-    color:#fff;
+    color:#6E1A2B; /* 팥버건디 (기본 텍스트) */
     overflow:hidden;
     position:relative
   }
@@ -39,18 +39,18 @@ tools: Read, Write, Grep
 ## 사전 로드 (생략 금지)
 
 1. `brief.json` — 9장 outline (n / role / core_message)
-2. `knowledge/brand-facts.md` — 디자인 DNA (`#131316` / `#CF5C3F` / Pretendard)
+2. `knowledge/brand-facts.md` — 디자인 DNA (`#F7F2EC` 배경 / `#6E1A2B` 팥버건디 / `#A83848` 팥코랄 / Pretendard)
 3. `knowledge/patterns/carousel-structure.md` — 9장 역할 공식
-4. `docs/sample-html/slide-01.html ~ slide-09.html` — 에이나우 v3 매거진 스타일 레퍼런스 (참고용)
+4. `docs/sample-html/slide-01.html ~ slide-09.html` — 에이나우 v3 매거진 스타일 레퍼런스 (레이아웃만 참고 — 색상은 다크 구버전이니 위 디자인 DNA 우선)
 
 ## 슬라이드 작성 규칙
 
 | 항목 | 규칙 |
 |:---|:---|
 | **캔버스** | `width:1080px; height:1350px` 고정 |
-| **배경** | `background:#131316` (변경 시 brand-facts.md 동기화) |
+| **배경** | `background:#F7F2EC` (한지 화이트 — 변경 시 brand-facts.md 동기화) |
 | **폰트** | Pretendard Variable (CDN) 또는 시스템 Pretendard |
-| **헤드라인 색상** | white + accent (`#CF5C3F`) 부분 강조 |
+| **헤드라인 색상** | 팥버건디(`#6E1A2B`) 기본 + 강조 단어만 팥코랄(`#A83848`). 프리미엄 장식은 황금(`#C8973A`) 소량 |
 | **여백** | 좌우 80px, 상하 88px 권장 (60% 이상 비워야 magazine feel) |
 | **시각 요소** | 슬라이드당 1개만 (트리/그리드/플로우/터미널/SVG 등) |
 | **이모지 금지** | 유니코드 아이콘 대신 SVG 또는 CSS 도형 |

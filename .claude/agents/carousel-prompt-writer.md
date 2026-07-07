@@ -25,7 +25,7 @@ tools: Read, Write, Grep
 ## 사전 로드 (생략 금지)
 
 1. `brief.json` — 9장 outline
-2. `knowledge/brand-facts.md` — 디자인 DNA (`#131316` / `#CF5C3F` / Pretendard)
+2. `knowledge/brand-facts.md` — 디자인 DNA (`#F7F2EC` 배경 / `#6E1A2B` 팥버건디 / `#A83848` 팥코랄 / Pretendard)
 3. `knowledge/patterns/carousel-structure.md` — 9장 역할 공식 + Cover/본문/Outro 규칙
 4. `templates/slides.example.json` — 스키마 참조
 
@@ -36,8 +36,8 @@ tools: Read, Write, Grep
 | 요소 | 필수 여부 | 예시 |
 |:---|:---:|:---|
 | 슬라이드 타입 | ✅ | "COVER SLIDE", "TIP 01 slide", "OUTRO slide" |
-| 레이블 위치 | ✅ | "Top-left small orange label" |
-| 한글 헤드라인 | ✅ | `"큰 볼드 한글: \"...\" (white), then \"...\" (orange)"` |
+| 레이블 위치 | ✅ | "Top-left small coral label" |
+| 한글 헤드라인 | ✅ | `"큰 볼드 한글: \"...\" (burgundy), then \"...\" (coral)"` |
 | 시각 요소 1개 | ✅ | 트리/그리드/다이어그램/아이콘 행 중 1개만 |
 | 보조 캡션 | ✅ | 회색 1줄 |
 | 여백 지시 | ✅ | "generous whitespace, left-aligned, magazine feel" |
