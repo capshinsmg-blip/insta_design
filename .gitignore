@@ -10,3 +10,9 @@ Thumbs.db
 .venv/
 __pycache__/
 *.pyc
+
+# 비공개 자료 (공개 레포에 올리지 말 것) — 기획안/원본 제품컷
+*.xlsx
+/photo_*.jpg
+/photo_*.jpeg
+/*_generated_image.png

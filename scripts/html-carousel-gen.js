@@ -71,6 +71,8 @@ async function captureSlides({ slidesDir, outputDir, only }) {
 
   const browser = await puppeteer.launch({
     headless: 'new',
+    // 캐시 브라우저가 없을 때 시스템 Chrome/Edge 경로를 지정 가능 (env 또는 --executable-path)
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--font-render-hinting=none'],
   });
 

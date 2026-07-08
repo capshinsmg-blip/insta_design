@@ -9,7 +9,7 @@
     "generate:html": "node scripts/html-carousel-gen.js"
   },
   "dependencies": {
-    "puppeteer": "^23.0.0"
+    "puppeteer": "^23.11.1"
   },
   "engines": {
     "node": ">=20"
