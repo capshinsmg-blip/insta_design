@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1080px;height:1350px;background:#F7F2EC;font-family:'Pretendard Variable','Pretendard',sans-serif;color:#6E1A2B;overflow:hidden;position:relative;-webkit-font-smoothing:antialiased}
+  body::before{content:'';position:absolute;inset:0;background:radial-gradient(120% 80% at 78% 8%, rgba(200,151,58,0.06), transparent 55%);pointer-events:none}
+  .label{font-size:25px;font-weight:700;letter-spacing:0.16em;color:#A83848}
+  .bar{width:64px;height:5px;background:#C8973A;border-radius:3px}
+  .sub{color:rgba(110,26,43,0.55);line-height:1.6}
+</style>
+</head>
+<body>
+  <div style="position:absolute;top:96px;left:90px" class="label">오행(五行)의 상성</div>
+  <div style="position:absolute;top:180px;left:90px;right:90px;font-size:58px;font-weight:800;line-height:1.28;letter-spacing:-0.025em;word-break:keep-all">
+    다섯 기운은 서로<br/><span style="color:#A83848">돕고 견제해요</span>
+  </div>
+  <div style="position:absolute;top:352px;left:90px"><svg width="900" height="820" viewBox="0 0 900 820" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="aS" markerWidth="11" markerHeight="11" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#A83848"/></marker>
+      <marker id="aG" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="rgba(110,26,43,0.32)"/></marker>
+    </defs>
+    <style>
+      .saeng{stroke:#A83848;stroke-width:4;marker-end:url(#aS)}
+      .geuk{stroke:rgba(110,26,43,0.30);stroke-width:2.5;stroke-dasharray:3 9;stroke-linecap:round;marker-end:url(#aG)}
+    </style>
+    <line x1="472.9" y1="195.4" x2="601.0" y2="589.7" class="geuk"/><line x1="566.5" y1="624.2" x2="231.0" y2="380.5" class="geuk"/><line x1="238.7" y1="332.3" x2="653.3" y2="332.3" class="geuk"/><line x1="675.4" y1="375.8" x2="340.0" y2="619.5" class="geuk"/><line x1="296.5" y1="597.3" x2="424.7" y2="203.0" class="geuk"/>
+    <line x1="509.9" y1="168.5" x2="669.0" y2="284.1" class="saeng"/><line x1="712.4" y1="402.7" x2="651.7" y2="589.7" class="saeng"/><line x1="552.3" y1="667.7" x2="355.7" y2="667.7" class="saeng"/><line x1="250.8" y1="597.3" x2="190.0" y2="410.3" class="saeng"/><line x1="224.6" y1="288.8" x2="383.7" y2="173.2" class="saeng"/>
+    <g>
+      <circle cx="450.0" cy="125.0" r="66" fill="#F7F2EC" stroke="#5E7C63" stroke-width="3.5"/>
+      <text x="450.0" y="121.0" text-anchor="middle" font-size="52" font-weight="700" fill="#5E7C63" font-family="'Pretendard Variable',sans-serif">木</text>
+      <text x="450.0" y="159.0" text-anchor="middle" font-size="21" font-weight="700" fill="#6E1A2B" font-family="'Pretendard Variable',sans-serif">목</text>
+    </g><g>
+      <circle cx="735.3" cy="332.3" r="66" fill="#F7F2EC" stroke="#B0433F" stroke-width="3.5"/>
+      <text x="735.3" y="328.3" text-anchor="middle" font-size="52" font-weight="700" fill="#B0433F" font-family="'Pretendard Variable',sans-serif">火</text>
+      <text x="735.3" y="366.3" text-anchor="middle" font-size="21" font-weight="700" fill="#6E1A2B" font-family="'Pretendard Variable',sans-serif">화</text>
+    </g><g>
+      <circle cx="626.3" cy="667.7" r="66" fill="#F7F2EC" stroke="#C8973A" stroke-width="3.5"/>
+      <text x="626.3" y="663.7" text-anchor="middle" font-size="52" font-weight="700" fill="#C8973A" font-family="'Pretendard Variable',sans-serif">土</text>
+      <text x="626.3" y="701.7" text-anchor="middle" font-size="21" font-weight="700" fill="#6E1A2B" font-family="'Pretendard Variable',sans-serif">토</text>
+    </g><g>
+      <circle cx="273.7" cy="667.7" r="66" fill="#F7F2EC" stroke="#9AA0A6" stroke-width="3.5"/>
+      <text x="273.7" y="663.7" text-anchor="middle" font-size="52" font-weight="700" fill="#9AA0A6" font-family="'Pretendard Variable',sans-serif">金</text>
+      <text x="273.7" y="701.7" text-anchor="middle" font-size="21" font-weight="700" fill="#6E1A2B" font-family="'Pretendard Variable',sans-serif">금</text>
+    </g><g>
+      <circle cx="164.7" cy="332.3" r="66" fill="#F7F2EC" stroke="#3F5A6B" stroke-width="3.5"/>
+      <text x="164.7" y="328.3" text-anchor="middle" font-size="52" font-weight="700" fill="#3F5A6B" font-family="'Pretendard Variable',sans-serif">水</text>
+      <text x="164.7" y="366.3" text-anchor="middle" font-size="21" font-weight="700" fill="#6E1A2B" font-family="'Pretendard Variable',sans-serif">수</text>
+    </g>
+  </svg></div>
+  <div style="position:absolute;bottom:150px;left:90px;right:90px;display:flex;gap:44px;align-items:center">
+    <div style="display:flex;align-items:center;gap:14px">
+      <svg width="52" height="14"><line x1="2" y1="7" x2="40" y2="7" stroke="#A83848" stroke-width="4"/><path d="M40,2 L50,7 L40,12 z" fill="#A83848"/></svg>
+      <span style="font-size:25px;font-weight:700;color:#6E1A2B">상생 <span style="color:rgba(110,26,43,0.55);font-weight:500">· 서로를 살려요</span></span>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px">
+      <svg width="52" height="14"><line x1="2" y1="7" x2="40" y2="7" stroke="rgba(110,26,43,0.4)" stroke-width="2.5" stroke-dasharray="3 7"/><path d="M40,2 L50,7 L40,12 z" fill="rgba(110,26,43,0.4)"/></svg>
+      <span style="font-size:25px;font-weight:700;color:#6E1A2B">상극 <span style="color:rgba(110,26,43,0.55);font-weight:500">· 서로를 눌러요</span></span>
+    </div>
+  </div>
+  <div style="position:absolute;bottom:70px;left:90px;display:flex;align-items:center;gap:12px">
+  
+<svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="20" cy="20" r="13" fill="#C8973A" fill-opacity="0.9"/>
+  <circle cx="20" cy="20" r="13" stroke="#C8973A" stroke-width="1.2"/>
+  <path d="M20 7 L20 33 M7 20 L33 20 M11 11 L29 29 M29 11 L11 29" stroke="#F7F2EC" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="16" cy="16" r="3" fill="#FFFFFF" fill-opacity="0.5"/>
+</svg><span style="font-size:25px;font-weight:600;color:rgba(110,26,43,0.55);letter-spacing:0.02em">@susu.oheng</span></div>
+</body></html>

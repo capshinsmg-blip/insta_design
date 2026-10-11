@@ -1,0 +1,387 @@
+{
+  "total": 108,
+  "format": {
+    "Sidecar": 71,
+    "Image": 37
+  },
+  "likes_public": 60,
+  "avg_caption_len": 301,
+  "top_posts": [
+    {
+      "user": "tarot.hoya",
+      "type": "Sidecar",
+      "likes": -1,
+      "comments": 304,
+      "hook": "[내 인생에 다음으로 터질 의외 반전은?] @tarot.hoya",
+      "url": "https://www.instagram.com/p/DcQKuXAE4uB/"
+    },
+    {
+      "user": "tarot.hoya",
+      "type": "Sidecar",
+      "likes": -1,
+      "comments": 217,
+      "hook": "[상대방 아직 날 생각하고 있을까?] @tarot.hoya",
+      "url": "https://www.instagram.com/p/DcQPBcwE_O0/"
+    },
+    {
+      "user": "tarot.hoya",
+      "type": "Sidecar",
+      "likes": -1,
+      "comments": 181,
+      "hook": "[상대와 나 결혼 할 운명일까?💍] @tarot.hoya",
+      "url": "https://www.instagram.com/p/DcQRUyGE896/"
+    },
+    {
+      "user": "matsu_mag",
+      "type": "Sidecar",
+      "likes": 85,
+      "comments": 55,
+      "hook": "AI 딸깍 사주 답답해서 직접 만들었습니다. 🫠",
+      "url": "https://www.instagram.com/p/DcQUbbYGZq0/"
+    },
+    {
+      "user": "wolyeong_tarot777",
+      "type": "Sidecar",
+      "likes": 8,
+      "comments": 53,
+      "hook": "기다리던 연락은 언제 어떤 이유로 올까?",
+      "url": "https://www.instagram.com/p/DcQN9B4FJ8s/"
+    },
+    {
+      "user": "sajunaru",
+      "type": "Sidecar",
+      "likes": 126,
+      "comments": 4,
+      "hook": "\"사주 일간별, 마주하기",
+      "url": "https://www.instagram.com/p/DcN26rTI-eN/"
+    },
+    {
+      "user": "haho.damia",
+      "type": "Image",
+      "likes": 114,
+      "comments": 0,
+      "hook": "간지 흐름이 싹 바뀌는 2026년 9월(무신월),",
+      "url": "https://www.instagram.com/p/DcQL07Jv1qj/"
+    },
+    {
+      "user": "velthera_tarot",
+      "type": "Image",
+      "likes": 103,
+      "comments": 1,
+      "hook": "내가 직접만든 어플이야",
+      "url": "https://www.instagram.com/p/DcPyGUnT48M/"
+    },
+    {
+      "user": "sajuhak_",
+      "type": "Sidecar",
+      "likes": 0,
+      "comments": 9,
+      "hook": "📖 세상에 단 한 권뿐인 나의 사주 맞춤 서적",
+      "url": "https://www.instagram.com/p/DcN0s72GCKW/"
+    },
+    {
+      "user": "ilhyun._",
+      "type": "Sidecar",
+      "likes": 54,
+      "comments": 2,
+      "hook": "[8월 20일] 찬란한 불꽃과 푸른 거목의 기운으로 도약하는 날, ‘병인(丙寅)일’ ☀️🪵",
+      "url": "https://www.instagram.com/p/DcOP-cxmgfV/"
+    },
+    {
+      "user": "naru_ing",
+      "type": "Sidecar",
+      "likes": 13,
+      "comments": 4,
+      "hook": "가장 끌린 색 하나가",
+      "url": "https://www.instagram.com/p/DcQWFuRk_bP/"
+    },
+    {
+      "user": "naru_ing",
+      "type": "Sidecar",
+      "likes": 13,
+      "comments": 4,
+      "hook": "가장 끌린 색 하나가",
+      "url": "https://www.instagram.com/p/DcQWFuRk_bP/"
+    },
+    {
+      "user": "naru_ing",
+      "type": "Sidecar",
+      "likes": 13,
+      "comments": 4,
+      "hook": "가장 끌린 색 하나가",
+      "url": "https://www.instagram.com/p/DcQWFuRk_bP/"
+    },
+    {
+      "user": "rayoon96126",
+      "type": "Sidecar",
+      "likes": 14,
+      "comments": 3,
+      "hook": "루루루미 깨끗해졌다 귀여워",
+      "url": "https://www.instagram.com/p/DcP9iGsk7pY/"
+    },
+    {
+      "user": "eungyeong4509",
+      "type": "Sidecar",
+      "likes": 22,
+      "comments": 1,
+      "hook": "",
+      "url": "https://www.instagram.com/p/DcPxSOFGtUv/"
+    },
+    {
+      "user": "aeonghee",
+      "type": "Image",
+      "likes": 29,
+      "comments": 0,
+      "hook": "화개는 좀 내비두자 좀~",
+      "url": "https://www.instagram.com/p/DcQYH4YzcBi/"
+    },
+    {
+      "user": "hae._.wol",
+      "type": "Sidecar",
+      "likes": 21,
+      "comments": 1,
+      "hook": "안녕하세요. 해월신당입니다.",
+      "url": "https://www.instagram.com/p/DcQD62Pk2SY/"
+    },
+    {
+      "user": "psychic_haewon",
+      "type": "Sidecar",
+      "likes": 11,
+      "comments": 2,
+      "hook": "지장보살님이 어떤 분이신지",
+      "url": "https://www.instagram.com/p/DcQD7b-E5Jv/"
+    },
+    {
+      "user": "su_ingung0416",
+      "type": "Image",
+      "likes": 11,
+      "comments": 2,
+      "hook": "🙏🏻 칠월칠석,",
+      "url": "https://www.instagram.com/p/DcP47S1zGgu/"
+    },
+    {
+      "user": "q93hbs",
+      "type": "Sidecar",
+      "likes": 26,
+      "comments": 0,
+      "hook": "여러분~ 별상신궁 (공항도령) 입니다~",
+      "url": "https://www.instagram.com/p/DcP6tdjmCKM/"
+    }
+  ],
+  "top_accounts": [
+    {
+      "user": "tarot.hoya",
+      "score": 5616,
+      "posts": 4
+    },
+    {
+      "user": "matsu_mag",
+      "score": 525,
+      "posts": 1
+    },
+    {
+      "user": "wolyeong_tarot777",
+      "score": 432,
+      "posts": 1
+    },
+    {
+      "user": "sajunaru",
+      "score": 158,
+      "posts": 1
+    },
+    {
+      "user": "naru_ing",
+      "score": 135,
+      "posts": 3
+    },
+    {
+      "user": "haho.damia",
+      "score": 114,
+      "posts": 1
+    },
+    {
+      "user": "velthera_tarot",
+      "score": 111,
+      "posts": 1
+    },
+    {
+      "user": "sajuhak_",
+      "score": 72,
+      "posts": 1
+    },
+    {
+      "user": "ilhyun._",
+      "score": 70,
+      "posts": 1
+    },
+    {
+      "user": "eungyeong4509",
+      "score": 46,
+      "posts": 2
+    },
+    {
+      "user": "rayoon96126",
+      "score": 38,
+      "posts": 1
+    },
+    {
+      "user": "aeonghee",
+      "score": 29,
+      "posts": 1
+    }
+  ],
+  "top_hashtags": [
+    {
+      "tag": "사주",
+      "count": 44
+    },
+    {
+      "tag": "운세",
+      "count": 38
+    },
+    {
+      "tag": "타로",
+      "count": 31
+    },
+    {
+      "tag": "사주팔자",
+      "count": 26
+    },
+    {
+      "tag": "신점",
+      "count": 22
+    },
+    {
+      "tag": "오늘의운세",
+      "count": 20
+    },
+    {
+      "tag": "띠별운세",
+      "count": 16
+    },
+    {
+      "tag": "사주풀이",
+      "count": 16
+    },
+    {
+      "tag": "명리학",
+      "count": 15
+    },
+    {
+      "tag": "타로상담",
+      "count": 13
+    },
+    {
+      "tag": "재물운",
+      "count": 12
+    },
+    {
+      "tag": "사주상담",
+      "count": 10
+    },
+    {
+      "tag": "금전운",
+      "count": 9
+    },
+    {
+      "tag": "풍수인테리어",
+      "count": 8
+    },
+    {
+      "tag": "연애운",
+      "count": 8
+    },
+    {
+      "tag": "재회",
+      "count": 7
+    },
+    {
+      "tag": "행운",
+      "count": 7
+    },
+    {
+      "tag": "무료운세",
+      "count": 6
+    },
+    {
+      "tag": "묘묘선생",
+      "count": 6
+    },
+    {
+      "tag": "눈치과잉묘묘선생",
+      "count": 6
+    },
+    {
+      "tag": "풍수",
+      "count": 6
+    },
+    {
+      "tag": "타로운세",
+      "count": 6
+    },
+    {
+      "tag": "궁합",
+      "count": 6
+    },
+    {
+      "tag": "전화상담",
+      "count": 5
+    },
+    {
+      "tag": "연애",
+      "count": 5
+    },
+    {
+      "tag": "애정운",
+      "count": 5
+    },
+    {
+      "tag": "재회운",
+      "count": 5
+    },
+    {
+      "tag": "재물운풍수",
+      "count": 4
+    },
+    {
+      "tag": "신비의거울",
+      "count": 4
+    },
+    {
+      "tag": "신비언니",
+      "count": 4
+    }
+  ],
+  "top_hooks": [
+    "[내 인생에 다음으로 터질 의외 반전은?] @tarot.hoya",
+    "[상대방 아직 날 생각하고 있을까?] @tarot.hoya",
+    "[상대와 나 결혼 할 운명일까?💍] @tarot.hoya",
+    "AI 딸깍 사주 답답해서 직접 만들었습니다. 🫠",
+    "기다리던 연락은 언제 어떤 이유로 올까?",
+    "\"사주 일간별, 마주하기",
+    "간지 흐름이 싹 바뀌는 2026년 9월(무신월),",
+    "내가 직접만든 어플이야",
+    "📖 세상에 단 한 권뿐인 나의 사주 맞춤 서적",
+    "[8월 20일] 찬란한 불꽃과 푸른 거목의 기운으로 도약하는 날, ‘병인(丙寅)일’ ☀️🪵",
+    "가장 끌린 색 하나가",
+    "가장 끌린 색 하나가",
+    "가장 끌린 색 하나가",
+    "루루루미 깨끗해졌다 귀여워",
+    "",
+    "화개는 좀 내비두자 좀~",
+    "안녕하세요. 해월신당입니다.",
+    "지장보살님이 어떤 분이신지",
+    "🙏🏻 칠월칠석,",
+    "여러분~ 별상신궁 (공항도령) 입니다~",
+    "이번 주, 사랑과 돈에서 유독 “현실을 마주하는 느낌”이 강했다면 이유가 있어. 🪐",
+    "어르신을 믿고 따라와주신것만으로",
+    "🦈 샤크 타로 후기🦈",
+    "지해신당 입니다",
+    "이동수 문의해주신",
+    "🕯️ 헤어진 뒤에도 계속 생각나는 그 사람",
+    "",
+    "재물운이 막히는 집에는",
+    "#점사 #후기 #후기맛집 #전화점사 #방문점사",
+    "운이 꽉 막혔을 때"
+  ]
+}
