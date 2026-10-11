@@ -42,9 +42,9 @@
 
 ## 재생성/수정
 ```bash
-node output/2026-07-09_susu-five-elements/build-slides.mjs
+node output/2026-10-18_susu-five-elements/build-slides.mjs
 PUPPETEER_EXECUTABLE_PATH="C:/Program Files/Google/Chrome/Application/chrome.exe" \
-  node scripts/html-carousel-gen.js --topic 2026-07-09_susu-five-elements
+  node scripts/html-carousel-gen.js --topic 2026-10-18_susu-five-elements
 # 특정 장만: --only 4
 ```
 - 문구·키워드·강/부족은 build-slides.mjs 상단의 `EL` 배열만 고치면 됨.
